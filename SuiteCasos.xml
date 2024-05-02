@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Casos Trinidad" >
+    <listeners>
+
+        <listener class-name="utilities.Listeners.AnnotationTransformer"/>
+
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="testAplication.crearCotizacion">
+                <methods>
+                    <include name="CrearCotizacion"></include>
+                </methods>
+            </class>
+            <class name="testAplication.editarCotizacion">
+                <methods>
+                    <include name="CotizacionAccesorio"></include>
+                    <include name="CotizacionFinanciamiento"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
