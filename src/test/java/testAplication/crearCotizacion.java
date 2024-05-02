@@ -1,6 +1,8 @@
 package testAplication;
 
 import ambientes.AbstractTestAplication;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.AfterMethod;

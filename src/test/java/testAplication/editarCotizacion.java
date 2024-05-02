@@ -1,6 +1,8 @@
 package testAplication;
 
 import ambientes.AbstractTestAplication;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.AfterMethod;
@@ -24,7 +26,7 @@ public class editarCotizacion extends AbstractTestAplication {
     @Attachment
     @Severity(SeverityLevel.NORMAL)
     @Test(testName = "Edicion + Financiamiento")
-    @Description("Descripcion")1
+    @Description("Descripcion")
     public void CotizacionFinanciamiento() throws Exception {
 
         app.PantallaLogin().LoginSistema();
